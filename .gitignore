@@ -4,4 +4,10 @@ __pycache__/
 *.pyc
 *.log
 nohup.out
-models/ # Додай, якщо папка з моделями велика і ти не хочеш її версіонувати
+
+# Ресурси ШІ
+ai_model/ipso_database*.db
+ai_model/model_weights_binary/
+ai_model/*.json
+ai_model/*.pkl
+ai_model/data/
